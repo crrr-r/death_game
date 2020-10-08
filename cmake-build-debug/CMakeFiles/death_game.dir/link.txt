@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\death_game.dir/objects.a
+D:\clion\MinGW\bin\ar.exe cr CMakeFiles\death_game.dir/objects.a @CMakeFiles\death_game.dir\objects1.rsp
+D:\clion\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\death_game.dir/objects.a -Wl,--no-whole-archive  -o death_game.exe -Wl,--out-implib,libdeath_game.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\death_game.dir\linklibs.rsp
